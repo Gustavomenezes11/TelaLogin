@@ -1,0 +1,58 @@
+/*Cor de fundo e fonte de letra do site*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #1C1C1C, #191970, #9400D3);
+}
+
+/*Estilização da div com todos campos do site*/
+.principal{
+    display: flex;
+    gap:12px;
+    flex-direction: column;
+    max-width: 12%;
+    background:linear-gradient(45deg, #1C1C1C, #191970, #ab51d1);
+    padding: 80px;
+    border-radius: 15px;
+    box-shadow: 10px 8px 15px black;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    color: white;   
+    opacity:0.5;
+}
+.principal:hover{
+    opacity:1;
+}
+.principal h2{
+    box-shadow: 2px 2px 2px blue;
+    max-width: 60%;
+    padding: 2px;
+}
+
+/*estilização dos inputs do site*/
+input{
+    padding: 8px;
+    box-shadow: 3px 3px 3px blue;
+}
+
+/*Campo de visualização de senha*/
+.principal i{
+    position: absolute;
+    top: 57%;
+    left: 79%;
+}
+
+/*Reset de senha*/
+.principal a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+/*Estilização do button*/
+button{
+    box-shadow: 2px 2px 4px blue;
+}
+button:hover{
+    background-color: #1f1f9d;
+}
